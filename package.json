@@ -7,7 +7,7 @@
     "daisyui": "^5.5.11"
   },
   "scripts": {
-    "build:css": "npx tailwindcss -i ./src/css/tailwind.css -o ./src/css/output.css --minify",
+    "build:css": "npx tailwindcss -i ./src/css/input.css -o ./src/css/output.css --minify",
     "build": "npm run build:css"
   }
 }
